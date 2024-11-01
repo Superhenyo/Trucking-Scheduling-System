@@ -5,7 +5,6 @@ using System.Windows.Forms;
 
 public class SQLConnection
 {
-    // Directly assign the connection string for troubleshooting.
     private static string connString = "Server=localhost;Port=3306;User=Yohen Nanati;Password=1234;Database=TruckingSystem;";
 
     public SQLConnection()
@@ -13,7 +12,7 @@ public class SQLConnection
         ConnectToDatabase();
     }
 
-    public static DataTable ExecuteQuery(string query)
+    public static DataTable ExecuteQuery(string query, MySqlParameter[] parameters = null)
     {
         DataTable dataTable = new DataTable();
         try
@@ -21,9 +20,18 @@ public class SQLConnection
             using (MySqlConnection connection = new MySqlConnection(connString))
             {
                 connection.Open();
-                using (MySqlDataAdapter dataAdapter = new MySqlDataAdapter(query, connection))
+                using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    dataAdapter.Fill(dataTable);
+                    // Add parameters if provided
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+
+                    using (MySqlDataAdapter dataAdapter = new MySqlDataAdapter(command))
+                    {
+                        dataAdapter.Fill(dataTable);
+                    }
                 }
             }
         }
@@ -34,9 +42,33 @@ public class SQLConnection
         return dataTable;
     }
 
+    public static object ExecuteScalar(string query, MySqlParameter[] parameters = null)
+    {
+        try
+        {
+            using (MySqlConnection connection = new MySqlConnection(connString))
+            {
+                connection.Open();
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    // Add parameters if provided
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+                    return command.ExecuteScalar();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Scalar query execution failed: " + ex.Message);
+            return null;
+        }
+    }
+
     public static void ConnectToDatabase()
     {
-        // Use a new MySqlConnection for each connect attempt.
         using (MySqlConnection connection = new MySqlConnection(connString))
         {
             try
@@ -51,16 +83,21 @@ public class SQLConnection
         }
     }
 
-    public static void ExecuteCommand(string query)
+    public static void ExecuteCommand(string query, MySqlParameter[] parameters = null)
     {
         try
         {
             using (MySqlConnection connection = new MySqlConnection(connString))
             {
                 connection.Open();
-                using (MySqlCommand mysqlCommand = new MySqlCommand(query, connection))
+                using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    mysqlCommand.ExecuteNonQuery();
+                    // Add parameters if provided
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+                    command.ExecuteNonQuery();
                 }
             }
         }
@@ -77,10 +114,10 @@ public class SQLConnection
             using (MySqlConnection connection = new MySqlConnection(connString))
             {
                 connection.Open();
-                using (MySqlCommand mysqlCommand = new MySqlCommand(query, connection))
+                using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    mysqlCommand.Parameters.AddWithValue("@photo", photo);
-                    mysqlCommand.ExecuteNonQuery();
+                    command.Parameters.AddWithValue("@photo", photo);
+                    command.ExecuteNonQuery();
                 }
             }
         }

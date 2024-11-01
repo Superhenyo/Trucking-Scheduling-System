@@ -58,6 +58,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
       <HintPath>..\..\BunifuCrack\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\BunifuCrack\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
       <HintPath>..\..\BunifuCrack\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
     </Reference>
@@ -166,11 +169,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewOTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewOTP.Designer.cs">
+      <DependentUpon>AddNewOTP.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListOfDrivers.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListOfDrivers.Designer.cs">
       <DependentUpon>ListOfDrivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOFOTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOFOTP.Designer.cs">
+      <DependentUpon>ListOFOTP.cs</DependentUpon>
     </Compile>
     <Compile Include="ListOfTruckOwners.cs">
       <SubType>Form</SubType>
@@ -200,8 +215,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resizer.cs" />
     <Compile Include="SQLConnections.cs" />
+    <EmbeddedResource Include="AddNewOTP.resx">
+      <DependentUpon>AddNewOTP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListOfDrivers.resx">
       <DependentUpon>ListOfDrivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOFOTP.resx">
+      <DependentUpon>ListOFOTP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListOfTruckOwners.resx">
       <DependentUpon>ListOfTruckOwners.cs</DependentUpon>
@@ -242,6 +263,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

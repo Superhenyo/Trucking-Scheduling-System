@@ -52,5 +52,12 @@ namespace DTS_System3
                 MessageBox.Show("Please Check the Credentials you Entered!");
             }
         }
+
+        private void Logincs_Load(object sender, EventArgs e)
+        {
+            bunifuDropdown1.SelectedIndex = 0;
+
+
+        }
     }
 }

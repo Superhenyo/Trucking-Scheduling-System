@@ -1,0 +1,15 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore Visual Studio settings
+.vs/
+*.suo
+
+# Ignore user-specific and temporary files
+*.user
+*.log
+*.tmp
+
+# Ignore packages folder if you are using NuGet restore
+packages/

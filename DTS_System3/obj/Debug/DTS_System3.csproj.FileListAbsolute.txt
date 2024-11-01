@@ -125,3 +125,6 @@ C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\bin\Debug\
 C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\obj\Debug\DTS_System3.Mainform.resources
 C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\obj\Debug\DTS_System3.ListOfTrucks.resources
 C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\obj\Debug\DTS_System3.ListOfTruckOwners.resources
+C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\obj\Debug\DTS_System3.AddNewOTP.resources
+C:\Users\Yohen Nanati\Desktop\cloned projects\DTS_System3\DTS_System3\obj\Debug\DTS_System3.ListOFOTP.resources

@@ -361,6 +361,7 @@
             this.Controls.Add(this.bunifuLabel1);
             this.Name = "Logincs";
             this.Text = "Logincs";
+            this.Load += new System.EventHandler(this.Logincs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
