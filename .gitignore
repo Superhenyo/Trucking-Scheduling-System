@@ -1,6 +1,6 @@
 # Ignore build output
-bin/
-obj/
+DTS_System3/bin/
+DTS_System3/obj/
 
 # Ignore Visual Studio settings
 .vs/
