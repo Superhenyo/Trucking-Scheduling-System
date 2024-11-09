@@ -117,77 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 48pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(34, 139, 34); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 16.2pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(34, 139, 34); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 16.2pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(34, 139, 34); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel4.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Cooper Black'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel5.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Cooper Black'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel6.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Cooper Black'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
   </data>
   <data name="bunifuLabel9.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 16.2pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(34, 139, 34); text-align: center; }</value>
   </data>
-  <data name="bunifuLabel11.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel10.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel7.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
-  </data>
-  <data name="bunifuLabel8.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Cooper Black'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuSeparator3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAIpCAYAAAC4zvjZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFQSURBVHhe7c2hEcAwDMBA7z+VN2tIuK6gqP9ITPPW7j43
-        v2GQDJJBMkgGySAZJINkkAySQTJIBskgGSSDZJAMkkEySAbJIBkkg2SQDJJBMkgGySAZJINkkAySQTJI
-        BskgGSSDZJAMkkEySAbJIBkkg2SQDJJBMkgGySAZJINkkAySQTJIBskgGSSDZJAMkkEySAbJIBkkg2SQ
-        DJJBMkgGySAZJINkkAySQTJIBskgGSSDZJAMkkEySAbJIBkkg2SQDJJBMkgGySAZJINkkAySQTJIBskg
-        GSSDZJAMkkEySAbJIBkkg2SQDJJBMkgGySAZJINkkAySQTJIBskgGSSDZJAMkkEySAbJIBkkg2SQDJJB
-        MkgGySAZJINkkAySQTJIBskgGSSDZJAMkkEySAbJIBkkg2SQDJJBMkgGySAZJINkkAySQTJIBskgGaS/
-        DWYOQ6ADgecsFZIAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="bunifuSeparator2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABoAAAIpCAYAAAC8OyjkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7c2hDcAAEMSw23+q36wlncBSWYzCMnF3z5f/
-        asQasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqx
-        RqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFr
-        xBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFG
-        rBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvE
-        GrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUas
-        EWvEGrFGrBFrxBqxRqwRa8QasUas0ba9lKoDgcv/mFEAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="bunifuSeparator1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABoAAAIpCAYAAAC8OyjkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7c2hDcAAEMSw23+q36wlncBSWYzCMnF3z5f/
-        asQasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqx
-        RqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFr
-        xBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFG
-        rBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvE
-        GrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUasEWvEGrFGrBFrxBqxRqwRa8QasUas
-        EWvEGrFGrBFrxBqxRqwRa8QasUas0ba9lKoDgcv/mFEAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAK8CAYAAAAJcFTjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEtSURBVHhe7cyhDcBADMDA7D9VNuuTZwaVyirdISPPm919
+        bn5nUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZl
+        UiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZl
+        UiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZl
+        UiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZlUiZl
+        UiZlUiZlUiZlUiZlUiZlUiZlUiZlUib1p8nMARvp4L0KhwVfAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuButton2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAAA6CAYAAAB4b1HYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAPNSURBVHhe7Z0tcNtAEIUNCwvLVMuksLCwsLAwMLCwMKxm
+        buTMBBYGBgYGGhoaFhoaBgq2+27WHdfePVu2fk7R+2beJDPZkzTavbu900oZEUIIITWTzbL3k/nk86SY
+        fBnPx1Oquia3k6+4h9ld9kFva7rgQuWi7/N5vhb9oRrRZnw3/oXA0NveLdl99jY4vchfjIulmlUp9/4B
+        I626o13E6d/p+CSEQJihM6prmiUrso9yUg7z6WkjulI3NQNOICr1hFSCwpSs7qoXTfDMkzoqZYpYQEhc
+        pL2Z6VKukFuF+1d5qpU2tU4J4WKsE+1J7J7z2/xbZ4nJKwYOFcdej4vxo3XvDS2zH9kbbX4+OKlx8P+F
+        iJPcQJuQhkEHk872ZPpiRwgWbXIe2c/skxwoNufjb80mHsRF/RNPyGW1pubVwPAhB0BmaR9YTsxe3z06
+        NSwM//zTWX5C5FgHU605z6cDOmvIv2xfITd7UtPTkIh5Jw29ob9kz08PHQl+G/4KquSzWNafzD40OQCj
+        svjI67grNYujc795kMpDCWkd8dHM8h100lNFPL61GkMc+tMnmrwX+Y2a+WDXzmrM3t8fxFdTy4eipZr4
+        iJEXPddqQhIHI7XpQxESfDU7JGSSRiOo1r1l0jjiM3ODCIU7anJIJHLWakJ6QuSZgb9z6yaARb5QE9IT
+        3KV8bGsY87zV6OKHCqR1kPGbvpQEUU0O8bJHRJOakJ5QdwD4jUiSnOVLBsDrgQEwcBgAA4cBMHAYAAOH
+        ATBwzvIlSrqdRg9qQnoCdvwcX/oBgGofp9GzmpCeID6zC0NiNQFaZnzY6NRyIpIMGLUNP8Yf62tNmdXo
+        pZa3TEhriN9WB34URR8HAzEy6wHxpFBNSOKg6MPyIXS0rE+GDvOVI5SKqQlJHAzzlg9Fx+s6Io3xPoBf
+        TkSSQXxlDv/SuY8/1Y2VhZ10ANIp3koOOjr/b/GmAVHZiy9WDRQtCTd7v2ijZseJ1AZCK64I0sQr6Q+q
+        +pawu44UsUQsPbxdXNWmcqfVpYT3nllYFXAkSAN1vuurs9/nxLBhHXBHS74v0C3RYR+6tKL7hG/SbCrP
+        L+RiNNv3Er6t1hd30JBZRt4739E6fCCKewWNoUv0K/TqvXtvqb4Vmz4jqPJxyBX2DERTjA74SVUXOpT+
+        PjvR6VuVtW/dh+irdhFUN2r2200SjVU/GEm1JemgrSTl2FKUEx5LQKj2hES8/df3NRPlh6O7U1iBdb4f
+        g0oinRoYDM0rrX8asQ+WHmGKKPIbzWCpGoR7io6mt5kQQgi5jNHoL/XkGojWeTo6AAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

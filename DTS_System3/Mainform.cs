@@ -36,9 +36,7 @@ namespace DTS_System3
             bunifuLabel6.Text = this.loginName;
 
             LoadYesterdayTrips();
-
             LoadTodayTrips();
-
             QueueTrips();
 
         }
@@ -121,7 +119,8 @@ namespace DTS_System3
 
         private void scheduleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            CreateSchedule createSchedule = new CreateSchedule();
+            createSchedule.Show();
         }
 
         private void oTPToolStripMenuItem_Click(object sender, EventArgs e)
